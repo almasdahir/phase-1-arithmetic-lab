@@ -23,8 +23,8 @@ describe('index.js', function() {
     });
   });
   describe('max', function() {
-    it("will return 20 as the highest number in the set", function() {
-      expect(max).to.eq(20)
-    });
+  it("will return 20 as the higher number in the set", function() {
+    expect(max).to.eq(20)
+  });
   });
 });
